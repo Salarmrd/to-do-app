@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+/* CSS Reset */
+* {
+  box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Global Styles */
+body {
+  background-color: #17181f;
+  color: #aaa;
+  font-family: Arial, sans-serif; /* Add a font family for consistency */
+}
+h2{
+  color:white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Container Styles */
+.container {
+  width: 400px;
+  margin: 20px auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Form Styles */
+.container form {
+  border: 3px solid #30313d;
+  border-radius: 10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10px;
+  padding: 7px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Input Styles */
+.container input[type="text"] {
+  background: none;
+  padding: 0 8px;
+  border: none;
+  width: 100%;
+  color: #aaa; /* Ensure text color is consistent with the body */
+  color:#fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Button Styles */
+.container form button {
+  background-color: #61dafb;
+  /* width: 30px;
+  height: 30px; */
+  
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #17181f; /* Ensure button text is readable */
+  transition: background-color 0.3s ease; /* Add a transition for better UX */
+}
+
+.container form button:hover {
+  background-color: #5268e2; /* Change background color on hover */
+}
+.tasks{
+  background-color: #20212D;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width : 480px) {
+  .container{
+    width: 100%;
+    padding: 30px 10px;
+
   }
-  to {
-    transform: rotate(360deg);
+  h2{
+    font-size: 20px;
   }
 }
