@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Salarmrd/to-do-app/static/css/main.5cc61359.css",
-    "main.js": "/Salarmrd/to-do-app/static/js/main.a74cc8e1.js",
-    "static/js/453.a50becb7.chunk.js": "/Salarmrd/to-do-app/static/js/453.a50becb7.chunk.js",
-    "index.html": "/Salarmrd/to-do-app/index.html",
-    "main.5cc61359.css.map": "/Salarmrd/to-do-app/static/css/main.5cc61359.css.map",
-    "main.a74cc8e1.js.map": "/Salarmrd/to-do-app/static/js/main.a74cc8e1.js.map",
-    "453.a50becb7.chunk.js.map": "/Salarmrd/to-do-app/static/js/453.a50becb7.chunk.js.map"
+    "main.css": "/to-do-app/static/css/main.5cc61359.css",
+    "main.js": "/to-do-app/static/js/main.0458ac7b.js",
+    "static/js/453.a50becb7.chunk.js": "/to-do-app/static/js/453.a50becb7.chunk.js",
+    "index.html": "/to-do-app/index.html",
+    "main.5cc61359.css.map": "/to-do-app/static/css/main.5cc61359.css.map",
+    "main.0458ac7b.js.map": "/to-do-app/static/js/main.0458ac7b.js.map",
+    "453.a50becb7.chunk.js.map": "/to-do-app/static/js/453.a50becb7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5cc61359.css",
-    "static/js/main.a74cc8e1.js"
+    "static/js/main.0458ac7b.js"
   ]
 }
