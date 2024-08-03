@@ -67,11 +67,18 @@ h2{
 
 @media (max-width : 480px) {
   .container{
-    width: 100%;
+    width: 400px;
     padding: 30px 10px;
 
   }
+  .container form button{
+    width: 30px;
+
+  }
+  .container input{
+    font-size: 22px;
+  }
   h2{
-    font-size: 20px;
+    font-size: 30px;
   }
 }
